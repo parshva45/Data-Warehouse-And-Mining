@@ -1,0 +1,32 @@
+Instances:	9
+Attributes:	5
+	I1
+	I2
+	I3
+	I4
+	I5
+=== Associator model (full training set) ===
+
+Apriori
+======
+
+Minimum support: 0.2 (2 instances)
+Minimum metric <confidence>: 1
+Number of cycles performed: 16
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 5
+
+Size of set of large itemsets L(2): 6
+
+Size of set of large itemsets L(3): 2
+
+Best rules found:
+
+ 1. I5=yes 2 ==> I1=yes 2    conf:(1)
+ 2. I4=yes 2 ==> I2=yes 2    conf:(1)
+ 3. I5=yes 2 ==> I2=yes 2    conf:(1)
+ 4. I2=yes I5=yes 2 ==> I1=yes 2    conf:(1)
+ 5. I1=yes I5=yes 2 ==> I2=yes 2    conf:(1)
+ 6. I5=yes 2 ==> I1=yes I2=yes 2    conf:(1)

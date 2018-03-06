@@ -1,0 +1,17 @@
+@relation apriori_input
+@attribute I1 {yes}
+@attribute I2 {yes}
+@attribute I3 {yes}
+@attribute I4 {yes}
+@attribute I5 {yes}
+@data
+yes,yes,?,?,yes
+?,yes,?,yes,?
+?,yes,yes,?,?
+yes,yes,?,yes,?
+yes,?,yes,?,?
+?,yes,yes,?,?
+yes,?,yes,?,?
+yes,yes,yes,?,yes
+yes,yes,yes,?,?
+
